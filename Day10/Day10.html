@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            line-height: 1.75;
+            text-align: center;
+            margin-top: 8rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        JavaScript Learnings
+    </h1>
+    <h2>
+        Uncomment the JavaScript code in the script tag and see the output in the console
+    </h2>
+    <script>
+        let scoreDolphins = (96 + 108 + 89) / 3;
+        let scorekoalas = (88 + 91 + 110) / 3;
+        console.log(scoreDolphins, scorekoalas);
+
+        if (scoreDolphins > scorekoalas) {
+            console.log('Dolphins win the trophy %');
+        } else if (scorekoalas > scoreDolphins) {
+            console.log('Koalas win the trophy')
+        } else if (scoreDolphins === scorekoalas) {
+            console.log('Both win the trophy!');
+        }
+        scoreDolphins = (97 + 112 + 80) / 3;
+        scorekoalas = (109 + 95 + 50) / 3;
+        console.log(scoreDolphins, scorekoalas);
+
+        if (scoreDolphins > scorekoalas && scoreDolphins >= 100) {
+            console.log('Dolphins win the trophy');
+        } else if (scorekoalas > scoreDolphins && scorekoalas >= 100) {
+            console.log('Koalas win the trophy');
+        } else if (scoreDolphins === scorekoalas && scoreDolphins >= 100 && scorekoalas >= 100) {
+            console.log('Both win the trophy!');
+        } else {
+            console.log('No one wins the trophy!');
+        }
+
+    </script>
+</body>
+
+</html>
