@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            line-height: 1.75;
+            text-align: center;
+            margin-top: 8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        JavaScript Learnings
+    </h1>
+    <h2>
+        Uncomment the JavaScript code in the script tag and see the output in the console
+    </h2>
+    <script>
+        // Basic Array Operations (Methods)
+        const friends = ['Michael', 'Steven', 'Peter'];
+
+        // Add elements
+        const newLength = friends.push('Jay');
+        console.log(friends);
+        console.log(newLength);
+
+        friends.unshift('John');
+        console.log(friends);
+
+        // Remove elements
+        friends.pop(); // Last
+        const popped = friends.pop();
+        console.log(popped);
+        console.log(friends);
+
+        friends.shift(); // First
+        console.log(friends);
+
+        console.log(friends.indexOf('Steven'));
+        console.log(friends.indexOf('Bob'));
+
+        friends.push(23);
+        console.log(friends.includes('Steven'));
+        console.log(friends.includes('Bob'));
+        console.log(friends.includes(23));
+
+        if (friends.includes('Steven')) {
+            console.log('You have a friend called Steven');
+        }
+    </script>
+</body>
+
+</html>
