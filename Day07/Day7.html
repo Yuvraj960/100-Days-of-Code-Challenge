@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            line-height: 1.75;
+            text-align: center;
+            margin-top: 8rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        JavaScript Learnings
+    </h1>
+    <h2>
+        Uncomment the JavaScript code in the script tag and see the output in the console
+    </h2>
+    <script>
+        // Taking Decisions: if / else statements
+        const age = 15;
+
+        if (age >= 18) {
+            console.log('Sarah can start driving license ');
+        } else {
+            const yearsLeft = 18 - age;
+            console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+
+            const birthYear = 2012;
+
+            let century;
+            if (birthYear <= 2000) {
+                century = 20;
+            } else {
+                century = 21;
+                console.log(century);
+            }
+        }
+    </script>
+</body>
+
+</html>
